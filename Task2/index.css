@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("bgShoe.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;    
+}
+
+.home{
+    background-color: #3D3B3B;
+    opacity: 0.7;
+    height: 726px;    
+}
+
+.title{
+    font-size: 75px;
+    text-align: center;
+    padding: 10%;
+    color: black;
+    opacity: 1;
+}
+
+
+
+.div1{
+    
+    align-content: center;
+}
+
+.nav-item{
+    padding-left: 25px;
+    align-self: left;
+}
