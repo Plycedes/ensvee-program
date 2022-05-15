@@ -4,24 +4,28 @@
 
 body{
     margin: 0;
-    padding: 0;
-    background-image: url("bgShoe.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;    
+    padding: 0;       
+       
 }
 
 .home{
-    background-color: #3D3B3B;
     opacity: 0.7;
-    height: 726px;    
+    background-image: url("bgShoe.png");
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
 }
 
+.div1{    
+    opacity: 1;
+    height: 726px;
+}
 .title{
     font-size: 75px;
     text-align: center;
     padding: 10%;
-    color: black;
+    color: white;
     opacity: 1;
 }
 
