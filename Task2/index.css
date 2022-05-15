@@ -23,17 +23,42 @@ body{
 }
 .title{
     font-size: 75px;
+    font-weight: 700;
     text-align: center;
-    padding: 10%;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
     color: white;
     opacity: 1;
 }
 
+.tagline{
+    font-size: 15px;
+    font-weight: 200;
+    text-align: center;    
+    color: white;
+    opacity: 1;
+}
 
+.home-button-div{    
+    margin-left: 43%;
+    margin-top: 3%;
+}
 
-.div1{
-    
-    align-content: center;
+.home-button{
+    font-size: 20px;
+    text-align: center;
+    background-color: yellow;
+    border-radius: 5px;
+    font-family: Verdana;
+    color: white;
+    border: 0px;
+    font-weight: 700;
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+    padding-top: 0.3em;
+    padding-bottom: 0.4em;
 }
 
 .nav-item{
