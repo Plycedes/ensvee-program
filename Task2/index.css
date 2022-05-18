@@ -73,12 +73,12 @@ body{
 
 .flex-container{
     display: flex;
+    justify-content: center;
 }
 
 .flex-item{
-    width: 300px;
-    margin: 10px;
-    border: 0px;    
+    width: 300px;  
+       
 }
 
 .flx1{
@@ -86,9 +86,12 @@ body{
 }
 
 .flx2{
-    min-height: 200px;
+    min-height: 100px;
+    margin-right: 100px;
+    margin-left: 10px;
+    text-align: center;
 }
 
 .flx3{
-    min-height: 300px;
+    min-height: 100px;    
 }
