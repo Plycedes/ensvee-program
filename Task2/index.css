@@ -18,7 +18,7 @@ body{
 }
 
 .div1{    
-    opacity: 1;
+    opacity: 10;
     height: 726px;
 }
 .title{
@@ -49,7 +49,7 @@ body{
 .home-button{
     font-size: 20px;
     text-align: center;
-    background-color: yellow;
+    background-color: rgb(255, 208, 0);
     border-radius: 5px;
     font-family: Verdana;
     color: white;
@@ -64,4 +64,31 @@ body{
 .nav-item{
     padding-left: 25px;
     align-self: left;
+}
+
+.featured-products{
+    text-align: center;
+    font-size: 70px;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.flex-item{
+    width: 300px;
+    margin: 10px;
+    border: 0px;    
+}
+
+.flx1{
+    min-height: 100px;
+}
+
+.flx2{
+    min-height: 200px;
+}
+
+.flx3{
+    min-height: 300px;
 }
